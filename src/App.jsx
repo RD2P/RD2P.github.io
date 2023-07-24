@@ -9,6 +9,8 @@ function App() {
     <>
       <h1>Welcome to the Library</h1>
       <img className='main-image' src={egypt}/>
+      <br />
+      <a href="https://rd2p.github.io/samsung-calculator/">Calculator</a>
 
     </>
   )
