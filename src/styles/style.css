@@ -21,26 +21,30 @@
   text-align: center;
 }
 
-.main-image {
+.card-image {
   max-width: 100%;
   height: auto;
-  /* overflow: hidden; */
   object-fit: cover;
+  animation: panning 20s linear infinite;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* background-color: yellow; */
-  height: 30vh;
+  height: 40vh;
   column-gap: 1rem;
   
 }
 
 .card {
-  background-color: orange;
-  border-radius: 0.5rem;
-  /* display: inline-block; */
-  /* height:fit-content; */
+  border-radius: 1rem;
   overflow: hidden;
+  border: 2px solid gray;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.card:hover{
+  box-shadow: 0 0 0.5rem white;
+  opacity: 1;
 }
