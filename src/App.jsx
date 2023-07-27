@@ -8,11 +8,13 @@ function App() {
   return (
     <>
       <h1>Welcome to the Library</h1>
-      <img className='main-image' src={egypt}/>
-      <br />
-      <a href="https://rd2p.github.io/samsung-calculator/">Calculator</a>
-      <br />
-      <a href="https://rd2p.github.io/vaultkeeper">Password Manager</a>
+      
+      <div className="grid-container">
+        <div className="card"><img className='main-image' src={egypt}/></div>
+        <div className="card"><a href="https://rd2p.github.io/samsung-calculator/">Calculator</a></div>
+        <div className="card"><a href="https://rd2p.github.io/vaultkeeper">Password Manager</a></div>
+      </div>
+      
 
     </>
   )
