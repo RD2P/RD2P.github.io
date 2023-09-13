@@ -1,7 +1,7 @@
 import calculator from "./assets/calculator.png";
 import vaultkeeper from "./assets/vaultkeeper.png";
 import "./styles/style.css";
-import Card from "./components/card";
+import Card from "./components/Card";
 
 function App() {
   return (
