@@ -1,14 +1,19 @@
+import Card from "./components/Card";
+import NavBar from "./components/NavBar";
+
 import calculator from "./assets/calculator.png";
 import vaultkeeper from "./assets/vaultkeeper.png";
+import egyptArt from "./assets/egypt-art.jpg";
+
 import "./styles/style.css";
-import Card from "./components/Card";
 
 function App() {
   return (
     <>
-      <h1>Welcome to the Library</h1>
-
-      <section className="grid-container">
+      <NavBar />
+      {/* <img src={egyptArt} width="300px" /> */}
+      <h1>Hi </h1>
+      {/* <section className="grid-container">
         <Card
           link="https://rd2p.github.io/samsung-calculator/"
           image={calculator}
@@ -20,7 +25,7 @@ function App() {
           image={vaultkeeper}
           title="Vault Keeper"
         />
-      </section>
+      </section> */}
     </>
   );
 }
