@@ -1,22 +1,38 @@
+:root {
+  --color1: #461E52;
+  --color2: #556DC8;
+  --color3: #7998EE;
+  --color4: #E68E36;
+  --color5: #DD517F;
+  --neut: #1A1B1C;
+  --primary: #163034;
+  --secondary: #68A6A9;
+  --accent: #FFC372;
+
+
+}
+
 .hero {
-  height: 50vh;
-  background-color: black;
+  background-color: var(--neut);
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .prof-pic-wrapper {
-  background-color: grey;
-  padding: 5px;
+  background-color: var(--secondary);
+  /* padding-top: 12%; */
   /* width: 40vw; */
-  overflow: hidden;
-  /* padding: 2rem; */
+  /* overflow: hidden; */
+  padding: 0.125rem;
+  border-radius: 20%;
 }
 
 .prof-pic {
   width: 100%;
   height: 100%;
+  border-radius: 20%;
 }
 
 .about-me-wrapper {

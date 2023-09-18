@@ -1,0 +1,42 @@
+h2 {
+  color: white;
+}
+
+.grid-container {
+  display: flex;
+}
+
+.card {
+  padding: 0.4rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid gray;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(71, 75, 79);
+}
+
+.card:hover {
+  box-shadow: 0 0 0.5rem white;
+  opacity: 0.8;
+}
+
+.card-image {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.description-wrapper {
+  background-color: #282828;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+}
+
+.card-title {
+  display: block;
+}
