@@ -9,7 +9,7 @@ const Hero = () => {
         <img src={rafpic} className="prof-pic"></img>
       </div>
       <div className="about-me-wrapper">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptatem dolores quibusdam natus voluptate, et ut in itaque odio atque illo soluta repellendus quae? Et error nesciunt eaque. Corrupti, asperiores.</p>
+        <p>Hi, I'm Raphael. I am an Engineering student at the University of Victoria. I have a strong passion for web development with experience in HTML, CSS, JavaScript, React, and React Native. I have completed several projects (check them out below!), and I'm still learning a little more each day. <br />Thank you for visiting!</p>
       </div>
     </section>
   );

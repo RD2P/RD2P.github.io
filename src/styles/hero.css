@@ -38,4 +38,6 @@
 .about-me-wrapper {
   width: 60vw;
   padding: 2rem;
+  line-height: 1.75rem;
+  font-size: 1.3rem;
 }
