@@ -16,14 +16,16 @@
   background-color: var(--neut);
   display: flex;
   justify-content: space-around;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  align-items: center;
+  padding: 2rem 10vw;
+  /* margin-bottom: 2rem; */
 }
 
 .prof-pic-wrapper {
   background-color: var(--secondary);
+  width: 40vw;
+  height: 33vw;
   /* padding-top: 12%; */
-  /* width: 40vw; */
   /* overflow: hidden; */
   padding: 0.125rem;
   border-radius: 20%;
@@ -39,5 +41,14 @@
   width: 60vw;
   padding: 2rem;
   line-height: 1.75rem;
+}
+
+.about-me-txt {
   font-size: 1.3rem;
+}
+
+@media (max-width: 745px) {
+  .about-me-txt {
+    font-size: 0.8rem;
+  }
 }
