@@ -1,4 +1,4 @@
-import "../styles/style.css";
+import "../styles/projects.css";
 
 const Card = (props) => {
   const { link, image, title } = props;

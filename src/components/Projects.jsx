@@ -7,19 +7,26 @@ const Projects = () => {
   return(
     <>
       <h2 className="projects-title">Projects</h2>
-      <section className="grid-container">
-        <Card
-          link="https://rd2p.github.io/samsung-calculator/"
-          image={calculator}
-          title="Calculator"
-        />
+   
+      <article className="card-container">
+          <section className="card-wrapper">
+            <Card
+              link="https://rd2p.github.io/vaultkeeper"
+              image={vaultkeeper}
+              title="Vault Keeper"
+              />
+          </section>
+        </article>
 
-        <Card
-          link="https://rd2p.github.io/vaultkeeper"
-          image={vaultkeeper}
-          title="Vault Keeper"
-        />
-      </section>
+        <article className="card-container">
+          <section className="card-wrapper">
+            <Card
+              link="https://rd2p.github.io/samsung-calculator/"
+              image={calculator}
+              title="Calculator"
+            />
+          </section>
+        </article>  
     </>
   )
 }

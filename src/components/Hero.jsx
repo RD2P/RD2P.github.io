@@ -1,5 +1,4 @@
 import "../styles/hero.css"
-import egyptArt from "../assets/egypt-art.jpg";
 import rafpic from '../assets/raf.jpg'
 
 const Hero = () => {
