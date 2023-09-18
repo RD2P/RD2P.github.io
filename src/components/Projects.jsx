@@ -6,7 +6,7 @@ import vaultkeeper from "../assets/vaultkeeper.png";
 const Projects = () => {
   return(
     <>
-      <h2>Projects</h2>
+      <h2 className="projects-title">Projects</h2>
       <section className="grid-container">
         <Card
           link="https://rd2p.github.io/samsung-calculator/"

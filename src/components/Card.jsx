@@ -10,7 +10,7 @@ const Card = (props) => {
         </a>
       </section>
       <section className="description-wrapper">
-        <h2 className="card-title">{title}</h2>
+        <h3 className="card-title">{title}</h3>
       </section>
     </article>
   );
