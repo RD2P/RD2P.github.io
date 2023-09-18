@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <header className="navbar">
       <nav>
-        <a href="#/">Home</a>
+        <a href="https://rd2p.github.io/">Home</a>
         <a href="#/">Work</a>
       </nav>
       <h3 className="name">Raphael De Los Reyes</h3>
