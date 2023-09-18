@@ -9,24 +9,23 @@
   --secondary: #68A6A9;
   --accent: #FFC372;
 
-
+  --fs-400: 1rem;
+  --fs-600: 2rem;
+  --fs-lg: 10vw;
 }
 
 .hero {
   background-color: var(--neut);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 2rem 10vw;
-  /* margin-bottom: 2rem; */
+  padding: 0 5vw;
 }
 
 .prof-pic-wrapper {
   background-color: var(--secondary);
-  width: 40vw;
-  height: 33vw;
-  /* padding-top: 12%; */
-  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
   padding: 0.125rem;
   border-radius: 20%;
 }
@@ -39,16 +38,34 @@
 
 .about-me-wrapper {
   width: 60vw;
-  padding: 2rem;
-  line-height: 1.75rem;
+  padding: 2% 10%;
 }
 
 .about-me-txt {
   font-size: 1.3rem;
+  line-height: 2.5rem;
+  text-align: left;
 }
 
 @media (max-width: 745px) {
+  .hero {
+    padding: 0 2vw;
+
+  }
+
+  .about-me-wrapper {
+    width: 80vw;
+    padding: 3%;
+  }
+
   .about-me-txt {
     font-size: 0.8rem;
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 585px) {
+  .hero {
+    padding: 2vw 5vw;
   }
 }
