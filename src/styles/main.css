@@ -1,16 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  margin: 0;
-  padding: 0;
 
-  box-sizing: border-box;
-}
+  --color1: #461E52;
+  --color2: #556DC8;
+  --color3: #7998EE;
+  --color4: #E68E36;
+  --color5: #DD517F;
+  --neut: #1A1B1C;
+  --primary: #163034;
+  --secondary: #68A6A9;
+  --accent: #FFC372;
 
-body {
-  margin: 0;
+  --fs-400: 1rem;
+  --fs-600: 2rem;
+  --fs-lg: 10vw;
 }
