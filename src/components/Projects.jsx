@@ -6,27 +6,39 @@ import vaultkeeper from "../assets/vaultkeeper.png";
 const Projects = () => {
   return(
     <>
-      <h2 className="projects-title">Projects</h2>
+      <h2 className="projects--title">Projects</h2>
    
-      <article className="card-container">
-          <section className="card-wrapper">
+      <div className="projects--container">
+   
+        <section className="project--row">
+          <div className="card--wrapper card--vaultkeeper">
             <Card
               link="https://rd2p.github.io/vaultkeeper"
               image={vaultkeeper}
               title="Vault Keeper"
               />
-          </section>
-        </article>
+          </div>
+          <div className="project-description">
+            <p>A password manager which uses a custom cipher.</p>
+            <p className="tech-used">React</p>
+          </div>
+        </section>
 
-        <article className="card-container">
-          <section className="card-wrapper">
+        <section className="project--row">
+          <div className="card--wrapper card--calculator">
             <Card
               link="https://rd2p.github.io/samsung-calculator/"
               image={calculator}
               title="Calculator"
             />
-          </section>
-        </article>  
+          </div>
+          <div className="project-description">
+            <p>An implementation of Samsung's calculator app.</p>
+            <p className="tech-used">HTML CSS JavaScript</p>
+          </div>
+        </section>
+      
+      </div> 
     </>
   )
 }
