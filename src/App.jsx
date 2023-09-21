@@ -11,7 +11,9 @@ function App() {
       <NavBar />
       <Hero />
       <Projects />
+      <p className="thanks-for-visit">Thank you for visiting! This page is still under construction and will continue to get better each day.</p>
       <Footer />
+      
     </>
   );
 }
