@@ -1,5 +1,9 @@
-.hero {
+.hero--wrapper {
   background-color: var(--neut);
+}
+
+.hero {
+  max-width: 1920px;
   display: flex;
   justify-content: space-between;
   align-items: center;

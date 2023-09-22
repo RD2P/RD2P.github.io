@@ -1,9 +1,9 @@
 .projects--title {
   margin: 0;
   font-size: 2vw;
-  /* text-align: left; */
   padding-top: 1em;
   padding-left: 3em;
+
 }
 
 .projects--container {
@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 1920px;
 }
 
 .project--row {

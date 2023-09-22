@@ -1,8 +1,14 @@
-.navbar {
+.navbar--wrapper {
+  width: 100%;
   background-color: var(--primary);
+
+}
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  max-width: 1920px;
   min-width: 320px;
   padding: 1rem 0;
 }

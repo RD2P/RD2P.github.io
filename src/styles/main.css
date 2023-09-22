@@ -7,8 +7,7 @@
 :root {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-  /* color-scheme: light dark; */
+  /* font-weight: 400; */
   background-color: #1c2630;
   color: rgba(255, 255, 255, 0.87);
 
@@ -22,15 +21,29 @@
   --secondary: #68A6A9;
   --accent: #FFC372;
 
-  --fs-400: 1rem;
-  --fs-600: 2rem;
-  --fs-lg: 10vw;
+  --fs-sm: 0.75rem;
+  --fs-4: 1rem;
+  --fs-5: 1.25rem;
+  --fs-6: 1.5rem;
+}
+
+@media (min-width: 40em) {
+  :root {
+    --fs-sm: 1rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1.5rem;
+    --fs-6: 1.75rem;
+  }
+}
+
+.thanks--wrapper {
+  max-width: 1920px;
 }
 
 .thanks-for-visit {
   width: 50%;
   margin: 0.5rem auto;
-  font-size: 1rem;
+  font-size: var(--fs-4);
   padding: 2rem;
   align-self: center;
   text-align: center;
