@@ -25,8 +25,8 @@ const Projects = () => {
                   <p className="tech-used">React</p>
                 </div>
                 <div className="card__buttons">
-                  <a className="card__button" href="#">DEMO</a>
-                  <a className="card__button" href="#">CODE</a>
+                  <a className="card__button" href="https://rd2p.github.io/vaultkeeper/" target="_blank">DEMO</a>
+                  <a className="card__button" href="https://github.com/RD2P/vaultkeeper" target="_blank">CODE</a>
                 </div>
               </div>
             </section>
@@ -44,8 +44,8 @@ const Projects = () => {
                   <p className="tech-used">HTML CSS JavaScript</p>
                 </div>
                 <div className="card__buttons">
-                  <a className="card__button" href="#">DEMO</a>
-                  <a className="card__button" href="#">CODE</a>
+                  <a className="card__button" href="https://rd2p.github.io/samsung-calculator/" target="_blank">DEMO</a>
+                  <a className="card__button" href="https://github.com/RD2P/samsung-calculator" target="_blank">CODE</a>
                 </div>
               </div>
             </section>
