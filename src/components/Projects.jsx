@@ -6,39 +6,52 @@ import vaultkeeper from "../assets/vaultkeeper.png";
 const Projects = () => {
   return(
     <>
-      <h2 className="projects--title">Projects</h2>
-   
-      <div className="projects--container">
-   
-        <section className="project--row">
-          <div className="card--wrapper card--vaultkeeper">
-            <Card
-              link="https://rd2p.github.io/vaultkeeper"
-              image={vaultkeeper}
-              title="Vault Keeper"
-              />
+        <div className="container">
+          <h2 className="projects__title">Projects</h2>
+        </div>
+      <div className="container">
+          <div className="project__rows">
+            <section className="project__row">
+              <div className="card--wrapper card--vaultkeeper">
+                <Card
+                  link="https://rd2p.github.io/vaultkeeper"
+                  image={vaultkeeper}
+                  title="Vault Keeper"
+                  />
+              </div>
+              <div className="project-description">
+                <div className="description-text">
+                  <p>A password manager which uses a custom cipher.</p>
+                  <p className="tech-used">React</p>
+                </div>
+                <div className="card__buttons">
+                  <a className="card__button" href="#">DEMO</a>
+                  <a className="card__button" href="#">CODE</a>
+                </div>
+              </div>
+            </section>
+            <section className="project__row">
+              <div className="card--wrapper card--calculator">
+                <Card
+                  link="https://rd2p.github.io/samsung-calculator/"
+                  image={calculator}
+                  title="Calculator"
+                />
+              </div>
+              <div className="project-description">
+                <div className="description-text">
+                  <p>An implementation of Samsung's calculator app.</p>
+                  <p className="tech-used">HTML CSS JavaScript</p>
+                </div>
+                <div className="card__buttons">
+                  <a className="card__button" href="#">DEMO</a>
+                  <a className="card__button" href="#">CODE</a>
+                </div>
+              </div>
+            </section>
           </div>
-          <div className="project-description">
-            <p>A password manager which uses a custom cipher.</p>
-            <p className="tech-used">React</p>
-          </div>
-        </section>
-
-        <section className="project--row">
-          <div className="card--wrapper card--calculator">
-            <Card
-              link="https://rd2p.github.io/samsung-calculator/"
-              image={calculator}
-              title="Calculator"
-            />
-          </div>
-          <div className="project-description">
-            <p>An implementation of Samsung's calculator app.</p>
-            <p className="tech-used">HTML CSS JavaScript</p>
-          </div>
-        </section>
-      
-      </div> 
+        
+      </div>
     </>
   )
 }

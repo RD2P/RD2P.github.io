@@ -1,16 +1,9 @@
-.navbar--wrapper {
-  width: 100%;
-  background-color: var(--primary);
-
-}
-
 .navbar {
+  background-color: var(--clr-primary);
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  max-width: 1920px;
-  min-width: 320px;
-  padding: 1rem 0;
+  justify-content: space-between;
+  padding: 1rem 2rem;
 }
 
 /* .navbar--title {
@@ -18,13 +11,8 @@
 } */
 
 /* .navbar--icons {
-  display: flex;
-  justify-content: space-around;
 } */
 
-.social {
-  /* align-self: center;
-  justify-self: center; */
+.navbar__icon {
   margin-right: 0.5rem;
-  /* height: 100%; */
 }

@@ -7,24 +7,30 @@
 :root {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  /* font-weight: 400; */
   background-color: #1c2630;
   color: rgba(255, 255, 255, 0.87);
 
-  --color1: #461E52;
-  --color2: #556DC8;
-  --color3: #9db5f5;
-  --color4: #E68E36;
-  --color5: #DD517F;
-  --neut: #1A1B1C;
-  --primary: #163034;
-  --secondary: #68A6A9;
-  --accent: #FFC372;
+  --clr-background: #d6e6f6;
+  --clr-neut: #1A1B1C;
+  --clr-primary: #163034;
+  --clr-secondary: #68A6A9;
+  --clr-accent: #FFC372;
 
   --fs-sm: 0.75rem;
   --fs-4: 1rem;
   --fs-5: 1.25rem;
   --fs-6: 1.5rem;
+}
+
+body {
+  background-color: var(--clr-background);
+}
+
+/* Reusable classes */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 @media (min-width: 40em) {
@@ -36,16 +42,13 @@
   }
 }
 
-.thanks--wrapper {
-  max-width: 1920px;
-}
-
-.thanks-for-visit {
-  width: 50%;
+.note {
+  /* width: 50%; */
   margin: 0.5rem auto;
   font-size: var(--fs-4);
-  padding: 2rem;
+  padding: 1.3rem;
   align-self: center;
   text-align: center;
-  background-color: #2f5454;
+  color: black;
+  background-color: var(--clr-secondary);
 }

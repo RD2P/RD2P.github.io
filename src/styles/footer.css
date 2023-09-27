@@ -1,13 +1,12 @@
 .footer--wrapper {
   background-color: var(--primary);
-  padding: 2rem 0;
 }
 
 .footer {
+  background-color: var(--clr-primary);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
-  max-width: 1920px;
+  padding: 1rem 0;
 }
