@@ -2,26 +2,19 @@
   background-color: var(--clr-neut);
   display: flex;
   align-items: center;
-  padding: 0 5vw;
+  padding: 5rem 5vw;
+  gap: 1rem;
 }
 
 .hero__image {
-  background-color: var(--secondary);
   display: flex;
-  align-items: center;
-  padding: 0.125rem;
-  border-radius: 20%;
+  justify-content: center;
+
 }
 
 .prof-pic {
   width: 70%;
-  height: 70%;
-  border-radius: 20%;
-}
-
-.hero__text {
-  width: 60vw;
-  padding: 2% 10%;
+  border-radius: 15%;
 }
 
 .about-me-txt {
@@ -30,24 +23,20 @@
   text-align: left;
 }
 
-@media (max-width: 745px) {
-  .hero {
-    padding: 0 2vw;
+@media (max-width: 900px) {
+  .about-me-txt {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
+}
 
-  .about-me-wrapper {
-    width: 80vw;
-    padding: 3%;
+@media (max-width: 600px) {
+  .hero {
+    padding: 3rem 1.5rem;
   }
 
   .about-me-txt {
     font-size: 0.8rem;
     line-height: 1rem;
-  }
-}
-
-@media (min-width: 585px) {
-  .hero {
-    padding: 2vw 5vw;
   }
 }
