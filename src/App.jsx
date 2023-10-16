@@ -14,7 +14,6 @@ function App() {
         <Hero />
         <Projects />
       </main>
-      <Note />
       <Footer />
       
     </>
