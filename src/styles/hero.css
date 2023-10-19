@@ -17,6 +17,10 @@
   border-radius: 15%;
 }
 
+.hero__text {
+  width: 60%;
+}
+
 .about-me-txt {
   font-size: 1.3rem;
   line-height: 2.5rem;
