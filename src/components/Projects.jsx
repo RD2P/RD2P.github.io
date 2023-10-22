@@ -2,8 +2,10 @@ import '../styles/projects.css'
 import Card from './Card.jsx'
 import calculator from "../assets/calculator.png";
 import vaultkeeper from "../assets/vaultkeeper.png";
+import hexnote from "../assets/hexnote.png"
 
 const Projects = () => {
+
   return(
     <>
         <div className="container">
@@ -11,6 +13,34 @@ const Projects = () => {
         </div>
       <div className="container">
           <div className="project__rows">
+          <section className="project__row">
+              <div className="card--wrapper ">
+                <Card
+                  link="#"
+                  image={hexnote}
+                  title="Hex Note"
+                />
+              </div>
+              <div className="project-description">
+                <div className="description-text">
+                  <p>A full-stack web application that allows you to create hex-encoded notes and save them in your computer.</p>
+                  <p className="tech-used">Node Express React<br/>HTML CSS JavaScript</p>
+                </div>
+                <div className="card__buttons">
+                  <a 
+                    className="card__button disabled-button tooltip"
+                    // href="#"
+                    target="_blank"
+                  >
+                    <span className="tooltiptext">In progress 🙂</span>
+                    DEMO
+                  </a>
+                  <a className="card__button" href="https://github.com/RD2P/HexNote" target="_blank">
+                    CODE
+                  </a>
+                </div>
+              </div>
+            </section>
             <section className="project__row">
               <div className="card--wrapper card--vaultkeeper">
                 <Card
@@ -22,7 +52,7 @@ const Projects = () => {
               <div className="project-description">
                 <div className="description-text">
                   <p>A password manager which uses a custom cipher.</p>
-                  <p className="tech-used">React</p>
+                  <p className="tech-used">React<br/>HTML CSS JavaScript</p>
                 </div>
                 <div className="card__buttons">
                   <a className="card__button" href="https://rd2p.github.io/vaultkeeper/" target="_blank">DEMO</a>
