@@ -14,10 +14,7 @@
   margin-top: 2rem;
 }
 
-.card--wrapper {
-  width: 50%;
-
-}
+/* .card--wrapper {} */
 
 .card {
   padding: 0.4em;
@@ -32,11 +29,11 @@
   color: white;
 }
 
-.card--vaultkeeper {
+.card--wide {
   width: 40%;
 }
 
-.card--calculator {
+.card--narrow {
   width: 30%;
 }
 
@@ -46,10 +43,12 @@
   flex-direction: column;
   justify-content: center;
   font-size: 1.5rem;
+  max-width: 50%;
 }
 
 .tech-used {
   letter-spacing: 0.3rem;
+  margin-top: 1rem;
 }
 
 .card__buttons {
@@ -131,7 +130,34 @@
   display: block;
   font-size: 2rem;
   text-align: center;
+}
 
+@media (max-width: 64em) {
+  .projects__title {
+    font-size: 2.3rem;
+    /* padding: 1rem; */
+  }
+
+  .project__row {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .card--wide {
+    width: 70%;
+  }
+
+  .card--narrow {
+    width: 50%;
+  }
+
+  .project-description {
+    max-width: fit-content;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    padding-left: 0;
+    padding-right: 2rem;
+  }
 }
 
 @media (max-width: 40em) {
@@ -140,11 +166,28 @@
     padding: 1rem;
   }
 
-  .card-title {
-    font-size: 1.5rem;
+  .card--wide {
+    width: 80%;
   }
 
-  .project__row {
-    flex-direction: column;
+  .card--narrow {
+    width: 70%;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .project__rows {
+    padding-right: 2rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .tech-used {
+    letter-spacing: 0.2rem;
   }
 }

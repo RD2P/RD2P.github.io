@@ -8,15 +8,15 @@ const Projects = () => {
 
   return(
     <>
-        <div className="container">
-          <h2 className="projects__title">Projects</h2>
-        </div>
+      <div className="container">
+        <h2 className="projects__title">Projects</h2>
+      </div>
       <div className="container">
           <div className="project__rows">
           <section className="project__row">
-              <div className="card--wrapper ">
+              <div className="card--wrapper card--wide">
                 <Card
-                  link="#"
+                  link=""
                   image={hexnote}
                   title="Hex Note"
                 />
@@ -27,11 +27,8 @@ const Projects = () => {
                   <p className="tech-used">Node Express React<br/>HTML CSS JavaScript</p>
                 </div>
                 <div className="card__buttons">
-                  <a 
-                    className="card__button disabled-button tooltip"
-                    // href="#"
-                    target="_blank"
-                  >
+                  <a className="card__button disabled-button tooltip" // href="#"
+                  target="_blank" >
                     <span className="tooltiptext">In progress 🙂</span>
                     DEMO
                   </a>
@@ -42,7 +39,7 @@ const Projects = () => {
               </div>
             </section>
             <section className="project__row">
-              <div className="card--wrapper card--vaultkeeper">
+              <div className="card--wrapper card--wide">
                 <Card
                   link="https://rd2p.github.io/vaultkeeper"
                   image={vaultkeeper}
@@ -61,7 +58,7 @@ const Projects = () => {
               </div>
             </section>
             <section className="project__row">
-              <div className="card--wrapper card--calculator">
+              <div className="card--wrapper card--narrow">
                 <Card
                   link="https://rd2p.github.io/samsung-calculator/"
                   image={calculator}
