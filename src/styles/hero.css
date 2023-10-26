@@ -43,6 +43,15 @@
     padding: 3rem 1.5rem;
   }
 
+  .hero__wrapper {
+    flex-direction: column;
+  }
+
+  .hero__text__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
   .about-me-txt {
     font-size: 0.8rem;
     line-height: 1rem;
