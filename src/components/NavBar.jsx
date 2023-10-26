@@ -2,7 +2,6 @@ import '../styles/navbar.css'
 
 const NavBar = () => {
   return (
-    <div className="container">
       <nav className="navbar">
         <h3 className="navbar__title">Raphael De Los Reyes</h3>
         <div className="navbar__icons">
@@ -14,7 +13,6 @@ const NavBar = () => {
           </a>
         </div>
       </nav>
-    </div>
   )
 };
 
