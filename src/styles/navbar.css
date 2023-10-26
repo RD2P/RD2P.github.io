@@ -1,17 +1,13 @@
 .navbar {
   background-color: var(--clr-primary);
+}
+
+.navbar__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
 }
-
-/* .navbar--title {
-
-} */
-
-/* .navbar--icons {
-} */
 
 .navbar__icon {
   margin-right: 0.5rem;

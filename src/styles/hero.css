@@ -1,12 +1,13 @@
 .hero {
   background-color: var(--clr-neut);
-  align-items: center;
-  padding: 5rem 5vw;
-  gap: 1rem;
+
 }
 
 .hero__wrapper {
   display: flex;
+  align-items: center;
+  padding: 5rem 5vw;
+  gap: 1rem;
 }
 
 .hero__image {
