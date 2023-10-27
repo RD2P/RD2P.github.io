@@ -5,7 +5,7 @@ const NavBar = () => {
       <nav className="navbar">
         <div className="container">
           <div className="navbar__wrapper">
-            <h3 className="navbar__title">Raphael De Los Reyes</h3>
+            <h2 className="navbar__title">Raphael De Los Reyes</h2>
             <div className="navbar__icons">
               <a
                 href="https://github.com/RD2P"
