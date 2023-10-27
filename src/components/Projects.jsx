@@ -24,7 +24,7 @@ const Projects = () => {
               <div className="project-description">
                 <div className="description-text">
                   <p>A full-stack web application that allows you to create hex-encoded notes and save them in your computer.</p>
-                  <p className="tech-used">Node Express React<br/>HTML CSS JavaScript</p>
+                  <p className="tech-used">Node Express React</p>
                 </div>
                 <div className="card__buttons">
                   <a className="card__button disabled-button tooltip" // href="#"
@@ -49,7 +49,7 @@ const Projects = () => {
               <div className="project-description">
                 <div className="description-text">
                   <p>A password manager which uses a custom cipher.</p>
-                  <p className="tech-used">React<br/>HTML CSS JavaScript</p>
+                  <p className="tech-used">React</p>
                 </div>
                 <div className="card__buttons">
                   <a className="card__button" href="https://rd2p.github.io/vaultkeeper/" target="_blank">DEMO</a>
