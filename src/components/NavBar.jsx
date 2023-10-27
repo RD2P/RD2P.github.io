@@ -7,11 +7,18 @@ const NavBar = () => {
           <div className="navbar__wrapper">
             <h3 className="navbar__title">Raphael De Los Reyes</h3>
             <div className="navbar__icons">
-              <a href="https://github.com/RD2P" className="navbar__icon">
-               <i className="fa-brands fa-square-github fa-lg"></i>
+              <a
+                href="https://github.com/RD2P"
+                target="_blank" 
+                className="navbar__icon">
+                <i className="devicon-github-original"></i>
               </a>
-              <a href="https://www.linkedin.com/in/glennraphaeldlr/" className="navbar__icon">
-                <i className="fa-brands fa-linkedin  fa-lg" ></i>
+              
+              <a
+                href="https://www.linkedin.com/in/glennraphaeldlr/"
+                target="_blank"
+                className="navbar__icon">
+                <i className="devicon-linkedin-plain"></i>
               </a>
             </div>
           </div>

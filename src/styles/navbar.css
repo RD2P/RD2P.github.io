@@ -11,4 +11,11 @@
 
 .navbar__icon {
   margin-right: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__icon:visited {
+  text-decoration: none;
+  color: white;
 }
