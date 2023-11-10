@@ -1,6 +1,5 @@
 .hero {
-  background-color: var(--clr-neut);
-
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .hero__wrapper {
@@ -13,12 +12,12 @@
 .hero__image {
   display: flex;
   justify-content: center;
-
 }
 
 .prof-pic {
   width: 70%;
   border-radius: 15%;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .hero__text {
@@ -33,7 +32,7 @@
 
 @media (max-width: 900px) {
   .about-me-txt {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
   }
 }
@@ -50,10 +49,6 @@
   .hero__text__wrapper {
     display: flex;
     justify-content: center;
-  }
-
-  .about-me-txt {
-    font-size: 0.8rem;
-    line-height: 1rem;
+    margin-top: 1rem;
   }
 }
