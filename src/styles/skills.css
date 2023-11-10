@@ -1,7 +1,8 @@
 .skills-title {
   text-align: center;
-  color: rgb(71, 75, 79);
+  color: var(--clr-blue);
   margin: 2rem;
+  margin-top: 5rem;
 }
 
 .skills-list {
@@ -9,13 +10,16 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 2rem 3rem 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 1px var(--clr-blue);
 }
 
 .skills-list div img {
   width: 3rem;
   margin: 0.5rem 1.5rem;
   border-radius: 5px;
-  box-shadow: 2px 3px 5px 2px grey;
+  box-shadow: 0px 3px 4px 1px grey;
 }
 
 .skills-list div p {
