@@ -1,12 +1,12 @@
 .footer {
-  background-color: var(--clr-primary);
+  background-color: var(--clr-blue);
+  color: white;
 }
 
 .footer__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   padding: 2rem 0;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }

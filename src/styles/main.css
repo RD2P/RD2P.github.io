@@ -5,16 +5,12 @@
 }
 
 :root {
-  font-family: system-ui, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  background-color: #1c2630;
-  color: rgba(255, 255, 255, 0.87);
+  font-family: Helvetica, Arial, sans-serif;
 
-  --clr-background: #d1d1e9;
-  --clr-neut: #1A1B1C;
-  --clr-primary: #163034;
-  --clr-secondary: #68A6A9;
-  --clr-accent: #FFC372;
+  line-height: 1.5;
+
+  color: #474b4f;
+  --clr-blue: #0E87E9;
 
   --fs-sm: 0.75rem;
   --fs-4: 1rem;
@@ -22,9 +18,7 @@
   --fs-6: 1.5rem;
 }
 
-body {
-  background-color: var(--clr-background);
-}
+body {}
 
 /* Reusable classes */
 .container {
@@ -40,15 +34,4 @@ body {
     --fs-5: 1.5rem;
     --fs-6: 1.75rem;
   }
-}
-
-.note {
-  /* width: 50%; */
-  margin: 0.5rem auto;
-  font-size: var(--fs-4);
-  padding: 1.3rem;
-  align-self: center;
-  text-align: center;
-  color: black;
-  background-color: var(--clr-secondary);
 }
