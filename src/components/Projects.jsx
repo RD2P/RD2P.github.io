@@ -3,6 +3,7 @@ import Card from './Card.jsx'
 import calculator from "../assets/calculator.png";
 import vaultkeeper from "../assets/vaultkeeper.png";
 import hexnote from "../assets/hexnote.png"
+import fox from "../assets/fox.png"
 
 const Projects = () => {
 
@@ -13,6 +14,26 @@ const Projects = () => {
       </div>
       <div className="container">
         <div className="project__rows">
+          <section className="project__row">
+            <div className="card--wrapper card--wide">
+              <Card
+                link="https://valiantfoxsoul.com/"
+                image={fox}
+                title="valiantfoxsoul.com"
+              />
+            </div>
+            <div className="project-description">
+              <div className="description-text">
+                <p>A website (wip!) for an artist starting to build her brand. Coming up will be a store with <a href="https://stripe.com/en-ca" target="_blank">stripe</a> payments.</p>
+                <p className="tech-used">React CSS (Tailwind)</p>
+              </div>
+              <div className="card__buttons">
+                <a className="card__button" href="https://valiantfoxsoul.com/" target="_blank">
+                  Site
+                </a>
+              </div>
+            </div>
+          </section>
           <section className="project__row">
             <div className="card--wrapper card--wide">
               <Card
