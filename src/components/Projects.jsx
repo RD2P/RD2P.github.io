@@ -1,9 +1,10 @@
 import '../styles/projects.css'
 import Card from './Card.jsx'
-import calculator from "../assets/calculator.png";
-import vaultkeeper from "../assets/vaultkeeper.png";
-import hexnote from "../assets/hexnote.png"
 import fox from "../assets/fox.png"
+import hexnote from "../assets/hexnote.png"
+import vaultkeeper from "../assets/vaultkeeper.png";
+import pathoscan from "../assets/pathoscan.png"
+import calculator from "../assets/calculator.png";
 
 const Projects = () => {
 
@@ -84,6 +85,37 @@ const Projects = () => {
               </div>
             </div>
           </section>
+
+          {/* PathoScan clone */}
+          <section className="project__row">
+            <div className="card--wrapper card--wide">
+              <Card
+                link="https://peaceful-babka-405f29.netlify.app/"
+                image={pathoscan}
+                title="PathoScan Clone"
+              />
+            </div>
+            <div className="project-description">
+              <div className="description-text">
+                <p>A small project cloning the hero section of the <a href="https://www.pathoscan.com/">PathoScan website</a> for quick practice with Bootstrap.</p><br/>
+                <p>Written in React, built with Vite, and deployed on Netlify.</p>
+                <p className="tech-used">React Bootstrap</p>
+              </div>
+              <div className="card__buttons">
+                <a className="card__button" href="https://peaceful-babka-405f29.netlify.app/" target="_blank">
+                  DEMO
+                </a>
+                <a className="card__button" href="https://github.com/RD2P/pathoscan-clone" target="_blank">
+                  CODE
+                </a>
+                <a className="card__button" href="https://github.com/RD2P/pathoscan-clone/blob/master/README.md" target="_blank">
+                  LEARN MORE
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Calculator */}
           <section className="project__row">
             <div className="card--wrapper card--narrow">
               <Card
