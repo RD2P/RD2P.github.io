@@ -11,10 +11,10 @@ function Skills() {
           <p>HTML5</p>
         </div>
         <div>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />  
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
           <p>CSS</p>
         </div>
-        <div>            
+        <div>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
           <p>JavaScript</p>
         </div>
@@ -23,20 +23,21 @@ function Skills() {
           <p>TailwindCSS</p>
         </div>
         <div>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />     
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+          <p>Bootstrap</p>
+        </div>
+        <div>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           <p>React.js</p>
         </div>
-        
         <div>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
           <p>Git</p>
         </div>
-        
         <div>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
           <p>GitHub</p>
         </div>
-        
         <div>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
           <p>Node.js</p>
@@ -57,7 +58,7 @@ function Skills() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
           <p>Figma</p>
         </div>
-      
+
       </div>
     </>
   )
