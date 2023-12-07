@@ -49,11 +49,6 @@ const Projects = () => {
                 <p className="tech-used">Node Express React</p>
               </div>
               <div className="card__buttons">
-                <a className="card__button disabled-button tooltip" // href="#"
-                  target="_blank" >
-                  <span className="tooltiptext">In progress 🙂</span>
-                  DEMO
-                </a>
                 <a className="card__button" href="https://github.com/RD2P/HexNote" target="_blank">
                   CODE
                 </a>

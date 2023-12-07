@@ -72,13 +72,6 @@
   cursor: not-allowed;
 }
 
-.tooltip {
-  position: relative;
-  /* display: inline-block; */
-  /* border: 1px solid red; */
-
-}
-
 .tooltiptext {
   visibility: hidden;
   font-size: 1rem;
