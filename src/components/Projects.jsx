@@ -5,6 +5,7 @@ import hexnote from "../assets/hexnote.png"
 import vaultkeeper from "../assets/vaultkeeper.png";
 import pathoscan from "../assets/pathoscan.png"
 import calculator from "../assets/calculator.png";
+import spellingbee from "../assets/spellingbee.png";
 
 const Projects = () => {
 
@@ -15,6 +16,29 @@ const Projects = () => {
       </div>
       <div className="container">
         <div className="project__rows">
+          <section className="project__row">
+            <div className="card--wrapper card--wide">
+              <Card
+                link="https://spellingbee.onrender.com/"
+                image={spellingbee}
+                title="Spelling Bee"
+              />
+            </div>
+            <div className="project-description">
+              <div className="description-text">
+                <p>A game in which the user has the POV of being in a spellingbee. Both the frontend and backend are deployed on <a href="https://render.com/" target="_blank">Render</a> and the database instance is deployed on <a href="https://www.mongodb.com/atlas" target="_blank">MongoDB Atlas</a></p>
+                <p className="tech-used">Frontend: React Tailwind</p>
+                <p className="tech-used">Backend: Node Express MongoDB</p>
+              </div>
+              <div className="card__buttons">
+                <a className="card__button" href="https://spellingbee.onrender.com/" target="_blank">
+                  SITE
+                </a>
+                <a className="card__button" href="https://github.com/RD2P/spellingbee-frontend" target="_blank">FRONTEND</a>
+                <a className="card__button" href="https://github.com/RD2P/spellingbee-backend" target="_blank">BACKEND</a>
+              </div>
+            </div>
+          </section>
           <section className="project__row">
             <div className="card--wrapper card--wide">
               <Card
@@ -92,7 +116,7 @@ const Projects = () => {
             </div>
             <div className="project-description">
               <div className="description-text">
-                <p>A small project cloning the hero section of the <a href="https://www.pathoscan.com/">PathoScan website</a> for quick practice with Bootstrap.</p><br/>
+                <p>A small project cloning the hero section of the <a href="https://www.pathoscan.com/">PathoScan website</a> for quick practice with Bootstrap.</p><br />
                 <p>Written in React, built with Vite, and deployed on Netlify.</p>
                 <p className="tech-used">React Bootstrap</p>
               </div>
