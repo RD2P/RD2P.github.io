@@ -29,7 +29,7 @@ const Projects = () => {
             </div>
             <div className="project-description">
               <div className="description-text">
-                <p>A game in which the user has the POV of being in a spellingbee. Both the frontend and backend are deployed on <a href="https://render.com/" target="_blank">Render</a> and the database instance is deployed on <a href="https://www.mongodb.com/atlas" target="_blank">MongoDB Atlas</a></p>
+                <p>A game in which the user has the POV of being in a spellingbee. Both the frontend and backend are deployed on <a href="https://render.com/" target="_blank">Render</a> and the database instance is deployed on <a href="https://www.mongodb.com/atlas" target="_blank">MongoDB Atlas</a>.</p>
                 <p className="tech-used">Frontend: React Tailwind</p>
                 <p className="tech-used">Backend: Node Express MongoDB</p>
               </div>
