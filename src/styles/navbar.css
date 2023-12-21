@@ -11,12 +11,17 @@
   padding: 1.5rem 2rem;
 }
 
-.navbar__icon {
+.navbar__link {
   margin-right: 0.5rem;
   text-decoration: none;
   color: white;
-  font-size: 1.8rem;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.navbar__link:hover {
+  background-color: #3497e8;
 }
 
 .navbar__icon:visited {
@@ -24,12 +29,13 @@
 }
 
 @media (max-width: 600px) {
-  /* .navbar__title {
-    font
-  } */
+  .navbar__link {
+    font-size: 0.9rem;
+    margin-right: 0.1rem;
+    padding: 0.1rem;
+  }
 
-  .navbar__title,
-  .navbar__icon {
+  .navbar__title {
     font-size: 1rem;
   }
 }

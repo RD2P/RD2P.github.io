@@ -13,15 +13,15 @@ const NavBar = () => {
             <a
               href="https://github.com/RD2P"
               target="_blank"
-              className="navbar__icon">
-              <i className="devicon-github-original"></i>
+              className="navbar__link">
+              GitHub
             </a>
 
             <a
               href="https://www.linkedin.com/in/glennraphaeldlr/"
               target="_blank"
-              className="navbar__icon">
-              <i className="devicon-linkedin-plain"></i>
+              className="navbar__link">
+              LinkedIn
             </a>
           </div>
         </div>
