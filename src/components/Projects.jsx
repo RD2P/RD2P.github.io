@@ -6,6 +6,7 @@ import vaultkeeper from "../assets/vaultkeeper.png";
 import pathoscan from "../assets/pathoscan.png"
 import calculator from "../assets/calculator.png";
 import spellingbee from "../assets/spellingbee.png";
+import emperors from "../assets/emperors.png";
 
 const Projects = () => {
 
@@ -16,6 +17,8 @@ const Projects = () => {
       </div>
       <div className="container">
         <div className="project__rows">
+
+          {/* Spelling Bee */}
           <section className="project__row">
             <div className="card--wrapper card--wide">
               <Card
@@ -39,6 +42,34 @@ const Projects = () => {
               </div>
             </div>
           </section>
+
+          {/* Emperors */}
+          <section className="project__row">
+            <div className="card--wrapper card--wide">
+              <Card
+                link="https://emperors-tkuh.onrender.com/"
+                image={emperors}
+                title="Emperors"
+              />
+            </div>
+            <div className="project-description">
+              <div className="description-text">
+                <p>A full stack web app presenting Roman Emperors during the Julio Claudian Dynasty. It's a Flask app deployed on <a href="https://render.com/" target="_blank">Render</a> driven by a MySQL database deployed on <a href="https://planetscale.com/" target="_blank">PlanetScale</a>.</p>
+                <p className="tech-used">Python, Flask</p>
+                <p className="tech-used">MySQL</p>
+                <p className="tech-used">sqlalchemy, mysql-connector-python</p>
+              </div>
+              <div className="card__buttons">
+                <a className="card__button" href="https://emperors-tkuh.onrender.com/" target="_blank">
+                  DEMO
+                </a>
+                <a className="card__button" href="https://github.com/RD2P/emperors" target="_blank">CODE</a>
+                <a className="card__button" href="https://github.com/RD2P/emperors/blob/master/readme.md" target="_blank">LEARN MORE</a>
+              </div>
+            </div>
+          </section>
+
+          {/* Valiant Fox Soul */}
           <section className="project__row">
             <div className="card--wrapper card--wide">
               <Card
@@ -59,6 +90,8 @@ const Projects = () => {
               </div>
             </div>
           </section>
+
+          {/* Hex Note */}
           <section className="project__row">
             <div className="card--wrapper card--wide">
               <Card
@@ -82,6 +115,8 @@ const Projects = () => {
               </div>
             </div>
           </section>
+
+          {/* Vault Keeper */}
           <section className="project__row">
             <div className="card--wrapper card--wide">
               <Card
