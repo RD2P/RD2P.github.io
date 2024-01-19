@@ -1,3 +1,6 @@
+/* Font  */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
 }
 
 :root {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
   line-height: 1.5;
   --clr-blue: #0E87E9;
 }
