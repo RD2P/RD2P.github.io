@@ -24,3 +24,13 @@ a {
   text-decoration: none;
   color: var(--clr-blue)
 }
+
+.social-icon {
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+i:hover {
+  opacity: 0.9;
+}

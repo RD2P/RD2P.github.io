@@ -31,12 +31,6 @@
   margin-bottom: 1rem;
 }
 
-.social-icon {
-  margin-right: 0.5rem;
-  font-size: 1.3rem;
-  text-decoration: none;
-}
-
 @media (max-width: 900px) {
   .about-me-txt {
     font-size: 1.2rem;
