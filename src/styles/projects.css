@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   max-width: 50%;
 }
 
@@ -52,6 +52,7 @@
 }
 
 .card__button {
+  font-size: 1rem;
   text-decoration: none;
   padding: 0.7rem;
   margin-right: 0.5rem;
@@ -64,32 +65,6 @@
 
 .card__button:hover {
   opacity: 0.8;
-}
-
-.disabled-button {
-  background-color: #f2f2f2;
-  color: #999999;
-  cursor: not-allowed;
-}
-
-.tooltiptext {
-  visibility: hidden;
-  font-size: 1rem;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  position: absolute;
-  z-index: 1;
-  padding: 0.2rem 0;
-  border-radius: 6px;
-  top: -70%;
-  left: 10%;
-  transition: 0.1s;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 
 .card:hover {
@@ -122,10 +97,9 @@
   text-align: center;
 }
 
-@media (max-width: 64em) {
+@media (max-width: 64rem) {
   .projects__title {
     font-size: 2.3rem;
-    /* padding: 1rem; */
   }
 
   .project__row {
@@ -150,7 +124,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 54rem) {
   .projects__title {
     font-size: 2rem;
     padding: 1rem;
@@ -180,6 +154,8 @@
   .tech-used {
     letter-spacing: 0.2rem;
   }
-}
 
-@media (max-width: 600px) {}
+  .card__button {
+    font-size: 0.8rem;
+  }
+}
