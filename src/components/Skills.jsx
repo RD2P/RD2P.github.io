@@ -3,9 +3,9 @@ import '../styles/skills.css'
 
 function Skills() {
   return (
-    <>
+    <article>
       <h2 className="skills-title">Skills</h2>
-      <div className='skills-container'>
+      <section className='skills-container'>
         <div className="skills-list">
           <div>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -42,11 +42,11 @@ function Skills() {
             <p>Express.js</p>
           </div>
           <div>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             <p>Python</p>
           </div>
           <div>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
             <p>Flask</p>
           </div>
           <div>
@@ -54,7 +54,7 @@ function Skills() {
             <p>MongoDB</p>
           </div>
           <div>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
             <p>MySQL</p>
           </div>
 
@@ -77,8 +77,8 @@ function Skills() {
             <p>Figma</p>
           </div>
         </div>
-      </div>
-    </>
+      </section>
+    </article>
   )
 }
 
