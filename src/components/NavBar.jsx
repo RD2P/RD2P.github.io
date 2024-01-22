@@ -13,7 +13,7 @@ const NavBar = () => {
             <a
               href="https://blog.raphaeldelosreyes.com/"
               target="_blank"
-              className="navbar__link">
+              className="navbar__link ">
               Blog
             </a>
             <a

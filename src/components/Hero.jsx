@@ -12,19 +12,30 @@ const Hero = () => {
           <div className="hero__text__wrapper">
             <div className="hero__text">
               <p className="about-me-txt">Hi, I'm Raphael.<br />I like learning and building things with code. Check out some of my work below!</p>
-              <a
-                href="https://www.linkedin.com/in/glennraphaeldlr/" target="_blank"
-                className="social-icon"
-              >
-                <i className="devicon-linkedin-plain"></i>
-              </a>
-              <a
-                href="https://github.com/RD2P"
-                target="_blank"
-                className="social-icon"
-              >
-                <i className="devicon-github-original"></i>
-              </a>
+
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/glennraphaeldlr/" target="_blank"
+                  className="social-icon"
+                >
+                  <i className="devicon-linkedin-plain"></i>
+                </a>
+                <a
+                  href="https://github.com/RD2P"
+                  target="_blank"
+                  className="social-icon"
+                >
+                  <i className="devicon-github-original"></i>
+                </a>
+                <a
+                  href="https://blog.raphaeldelosreyes.com/"
+                  target="_blank"
+                  className="social-icon"
+                >
+                  Blog
+                </a>
+              </div>
+
             </div>
           </div>
         </div>
