@@ -8,8 +8,14 @@ const NavBar = () => {
           <h2 className="navbar__title">
             Raphael De Los Reyes
           </h2>
-          {/* icons */}
+          {/* links */}
           <div className="navbar__icons">
+            <a
+              href="https://blog.raphaeldelosreyes.com/"
+              target="_blank"
+              className="navbar__link">
+              Blog
+            </a>
             <a
               href="https://github.com/RD2P"
               target="_blank"
