@@ -22,7 +22,7 @@ const Resume = () => {
       </div>
       <p>Systems Enginer Analyst - Coop</p>
 
-      <div className='description'>
+      <div className='job-description'>
         <ul>
           <li>
             Employing Agile methodologies, contributed to the successful development of over 60 server build books
@@ -48,7 +48,7 @@ const Resume = () => {
         <span>2017-2021</span>
       </div>
       <p>Infantry Officer</p>
-      <div className='description'>
+      <div className='job-description'>
         <ul>
           <li>
             Managed personnel records to monitor training advancement and career development of soldiers.
@@ -72,7 +72,7 @@ const Resume = () => {
         <span>2023</span>
       </div>
       <p>Software Developer</p>
-      <div className='description'>
+      <div className='job-description'>
         <ul>
           <li>
             Developed "Spelling Bee" app from concept to deployment, including designing architecture, coding frontend and backend, and creating database schema.</li>
@@ -90,7 +90,7 @@ const Resume = () => {
         <span>2023</span>
       </div>
       <p>Software Developer</p>
-      <div className='description'>
+      <div className='job-description'>
         <ul>
           <li>
           Contributed as a developer on the first prize-winning team at the AGTECH Hackathon at Canada’s Farm Show, winning a $9000 prize</li>
