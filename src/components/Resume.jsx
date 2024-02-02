@@ -6,11 +6,13 @@ const Resume = () => {
     <div className='resume'>
       <h1 className='center'>Raphael De Los Reyes</h1>
       <p className='center'>Software developer</p>
-      <a className='center'>graphael.dr@gmail.com</a>
+      <a className='center' href="mailto:graphael.dr@gmail.com">graphael.dr@gmail.com</a>
       <div className='center'>
         <div>
-          <a href="https://github.com/RD2P">GitHub</a> |
-          <a href="https://linkedin.com/in/glennraphaeldlr">LinkedIn</a> |
+          <a href="https://github.com/RD2P">GitHub</a>
+          <span> | </span>
+          <a href="https://linkedin.com/in/glennraphaeldlr">LinkedIn</a>
+          <span> | </span>
           <a href="https://blog.raphaeldelosreyes.com/">Blog</a></div>
       </div>
 
@@ -93,9 +95,9 @@ const Resume = () => {
       <div className='job-description'>
         <ul>
           <li>
-          Contributed as a developer on the first prize-winning team at the AGTECH Hackathon at Canada’s Farm Show, winning a $9000 prize</li>
+            Contributed as a developer on the first prize-winning team at the AGTECH Hackathon at Canada’s Farm Show, winning a $9000 prize</li>
           <li>
-          Engaged in cross-functional communication with software developers, a designer, and a business lead to plan and execute a web application project.</li>
+            Engaged in cross-functional communication with software developers, a designer, and a business lead to plan and execute a web application project.</li>
         </ul>
       </div>
 
