@@ -1,0 +1,33 @@
+.resume {
+  max-width: 900px;
+  margin: 3rem auto;
+  background-color: aliceblue;
+  padding: 4rem;
+  line-height: 1.8rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-top: 2rem;
+}
+h3 {
+  margin-top: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.job-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  max-width: 700px;
+  margin-left: 3rem;
+}
