@@ -38,4 +38,8 @@
   .navbar__title {
     font-size: 1rem;
   }
+
+  .navbar__icons {
+    display: none;
+  }
 }
