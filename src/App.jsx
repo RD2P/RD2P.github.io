@@ -1,8 +1,8 @@
-import {Routes, Route} from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 import NavBar from "./components/NavBar"
-import Home from "./components/Home.jsx"
-import Resume from './components/Resume.jsx'
+import Home from "./pages/Home.jsx"
+import Resume from './pages/Resume.jsx'
 import Footer from './components/Footer'
 
 
