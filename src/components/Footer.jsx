@@ -1,8 +1,11 @@
 import '../styles/footer.css'
+import Contact from './Contact'
 
 const Footer = () => {
   return (
     <footer className="footer">
+            <Contact />
+
       <div className="container">
         <div className="footer__wrapper">
           <p>Copyright @ {new Date().getFullYear()} Raphael De Los Reyes</p>
