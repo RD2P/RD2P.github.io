@@ -28,7 +28,7 @@ textarea {
   resize: none;
 }
 
-button {
+.submit-btn {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -37,7 +37,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.submit-btn:hover {
   background-color: #0056b3;
 }
 
