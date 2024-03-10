@@ -1,10 +1,8 @@
 import '../styles/footer.css'
-import Contact from './Contact'
 
 const Footer = () => {
   return (
     <footer className="footer">
-            <Contact />
 
       <div className="container">
         <div className="footer__wrapper">
@@ -26,7 +24,7 @@ const Footer = () => {
               <i className="devicon-github-original white"></i>
             </a>
             <a
-              href="https://blog.raphaeldelosreyes.com/" 
+              href="https://blog.raphaeldelosreyes.com/"
               target="_blank"
               className="social-icon white"
             >
