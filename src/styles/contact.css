@@ -1,13 +1,16 @@
 .contact-me-container {
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  padding: 2rem 0;
+  background-color: var(--clr-light-blue);
 }
 
 form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #FFF;
   display: grid;
   gap: 10px;
 }
@@ -22,6 +25,7 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  resize: none;
 }
 
 button {
@@ -35,4 +39,10 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  form {
+    border-radius: 0;
+  }
 }
