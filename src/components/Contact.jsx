@@ -1,21 +1,47 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import '../styles/contact.css'
 
 const Contact = () => {
+
+  const serviceID = import.meta.env.VITE_SERVICE_ID
+  const templateID = import.meta.env.VITE_TEMPLATE_ID
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(serviceID, templateID, form.current, {
+        publicKey: publicKey,
+      })
+      .then(
+        () => {
+          alert('Messaged sent')
+          e.target.reset()
+        },
+        (error) => {
+          alert('Something went wrong...', error.text)
+        },
+      );
+  };
+
   return (
     <div className="contact-me-container">
-      <h2>Contact Me</h2>
-      <form action="#" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+      <form ref={form} onSubmit={sendEmail}>
+        <h2>Contact Me</h2>
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" name="user_name" required />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="user_email" required />
 
-        <label for="message">Message:</label>
+        <label htmlFor="message">Message:</label>
         <textarea id="message" name="message" required></textarea>
 
-        <button type="submit">Submit</button>
+        <input type="submit" value="Send" />
       </form>
     </div>
   )
