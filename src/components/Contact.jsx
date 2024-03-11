@@ -4,9 +4,9 @@ import '../styles/contact.css'
 
 const Contact = () => {
 
-  const serviceID = import.meta.env.VITE_SERVICE_ID
-  const templateID = import.meta.env.VITE_TEMPLATE_ID
-  const publicKey = import.meta.env.VITE_PUBLIC_KEY
+  const serviceID = 'service_oo65yid'
+  const templateID = 'template_hfqpgem'
+  const publicKey = 'TTuhCn1P_q4ryAQmH'
 
   const form = useRef();
 
@@ -19,7 +19,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          alert('Messaged sent')
+          alert('Message sent successfully')
           e.target.reset()
         },
         (error) => {
