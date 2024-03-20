@@ -25,6 +25,10 @@ function Skills() {
             <p>React.js</p>
           </div>
           <div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+            <p>Vue.js</p>
+          </div>
+          <div>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
             <p>TailwindCSS</p>
           </div>
@@ -39,7 +43,6 @@ function Skills() {
 
         </div>
 
-        <h3 className='skill-subtitle'>My secondary skills:</h3>
         <div className="skills-list">
           <div>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
